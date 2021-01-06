@@ -27,7 +27,9 @@ mongoose.connect(connection_url, {
     useCreateIndex:true,
     useUnifiedTopology:true,
 });
-
+app.get('/', (req,res) => {
+    res.send('Hello to API');
+});
 //API Endpoints
 app.post('/products',(req,res)=> {
     const dbProduct = req.body;
