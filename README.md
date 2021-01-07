@@ -1,2 +1,2 @@
 # MERN_Commerce
-E-Commerce project built using MERN stack
+E-Commerce Backent built using Node.js / Ezpress / MongoDB stack.
